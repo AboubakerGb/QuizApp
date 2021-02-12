@@ -15,7 +15,7 @@ class ResultActivity : AppCompatActivity() {
         val userName=intent.getStringExtra(Constants.USER_NAME)
 
         tv_name.text=userName
-        tv_score.text="Your score is $currectQuestion out of $totalQuestion"
+        tv_score.text="نتيجتك هي $currectQuestion من $totalQuestion"
 
         btn_finish.setOnClickListener {
             startActivity(Intent(this,MainActivity::class.java))

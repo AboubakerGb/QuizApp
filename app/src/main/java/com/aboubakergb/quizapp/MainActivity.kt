@@ -16,10 +16,10 @@ class MainActivity : AppCompatActivity() {
         start_button.setOnClickListener {
             if(et_name.text.toString().isEmpty()){
                 //make Toast when the et name is empty
-                Toast.makeText(this,"Please enter your name ", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this,"أدخل اسمك من فضلك", Toast.LENGTH_SHORT).show()
             }else{
                 // Move to the next Activity
-                val intent =Intent(this,QuizQuestionActivity::class.java)
+                val intent =Intent(this, QuizQuestionActivity::class.java)
                 intent.putExtra(Constants.USER_NAME,et_name.text.toString())
                 startActivity(intent)
                 finish()

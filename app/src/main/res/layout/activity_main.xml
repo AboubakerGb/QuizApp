@@ -38,7 +38,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Welcome"
+                android:text="مرحبا"
                 android:textColor="#363A43"
                 android:textSize="28sp"
                 android:textStyle="bold" />
@@ -47,7 +47,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text=" Please enter your name "
+                android:text="أدخل اسمك من فضلك"
                 android:textColor="#7A8089"
                 android:textSize="16sp" />
 
@@ -72,9 +72,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:background="@color/colorPrimary"
-                android:text="Start"
+                android:text="ابدأ"
                 android:textColor="#fff"
-                android:textSize="28sp"
+                android:textSize="30sp"
 
                 />
 

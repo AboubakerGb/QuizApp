@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
             android:gravity="center"
-            android:text="Result"
+            android:text="النتيجة"
             android:textColor="#fff"
             android:textSize="26sp"
             android:textStyle="bold" />
@@ -33,7 +33,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="Hey, Congratulation"
+            android:text="تهانينا لقد اكملت الاسئلة"
             android:textColor="#fff"
             android:textSize="25sp"
             android:textStyle="bold" />
@@ -63,9 +63,9 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:background="@android:color/white"
-            android:text="FINISH"
+            android:text="انهاء"
             android:textColor="@color/colorPrimary"
-            android:textSize="20sp" />
+            android:textSize="30sp" />
     </LinearLayout>
 
 </ScrollView>
